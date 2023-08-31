@@ -6,10 +6,12 @@
 :root {
     background-color: rgb(36, 36, 36);
     color: white;
+
 }
 
 body {
     direction: rtl;
+
 }
 
 /* star with navbar */
@@ -110,7 +112,10 @@ body {
 /* startng with container */
 .container {
     width: 80%;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+   
 }
 
 /* starting with section one ya mego */
@@ -408,6 +413,7 @@ body {
 @media (max-width:600px) {
     .container {
         width: 80%;
+
     }
 
     .nav {
@@ -448,15 +454,12 @@ body {
     }
 
     .cards-p5 {
-        /* 
-        هنا في حاجه غلط مع اني مديها 
-        100%
-        align-items:center;
-        مع ذلك بتبدا من الشمال 
-        ???????????????????????????
-        */
         width: 100%;
+        padding-left: 0px;
         align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
     }
     .container .section3 .downcontent .right-con{
         width: 100%;
@@ -489,6 +492,7 @@ body {
     padding: 50px 20px 50px 20px;
     border-left: 5px solid red;
     border-right: 5px solid red;
+    box-sizing: border-box;~
 }
 
 .cards-p5 .co-name {
