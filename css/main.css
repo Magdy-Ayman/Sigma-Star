@@ -455,7 +455,7 @@ body {
 
     .cards-p5 {
         width: 100%;
-        padding-left: 0px;
+        box-sizing: border-box;
         align-items: center;
         display: flex;
         flex-wrap: wrap;
